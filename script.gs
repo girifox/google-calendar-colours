@@ -115,7 +115,7 @@ function colorizeByRegex(event, myOrg) {
     }
 
 
-    // Check for Alliance team mentioned in meetings
+    // Check for my team "Alliance" or related keywrords like 'VAR' (lowercased) mentioned in meetings
     if (/alliance/.test(eventTitle) ||
         /jgtm/.test(eventTitle) ||
         /var/.test(eventTitle)) {
@@ -125,10 +125,10 @@ function colorizeByRegex(event, myOrg) {
     }
 
 
-    // Check for interviews or hiring
+    // Check for interviews or hiring keywords
     if (/interview/.test(eventTitle) ||
        /hiring/.test(eventTitle) ||
-       /gia/.test(eventTitle)  ) {
+       /grading/.test(eventTitle)  ) {
       console.log("Colorizing interview stuff found: " + eventTitle)
       event.setColor(CalendarApp.EventColor.PALE_RED)
       return
