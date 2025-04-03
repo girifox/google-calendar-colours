@@ -1,4 +1,8 @@
-// original author is https://mathiasw.medium.com/automate-your-google-calendar-coloring-4e7b15ed5560
+// original author and instructions  https://mathiasw.medium.com/automate-your-google-calendar-coloring-4e7b15ed5560
+// /* Written by Mathias Wagner www.linkedin.com/in/mathias-wagner */
+//
+// this version includes customisations for Giri Fox, working at Canonical. Nothing confidential, just refers to my team and the keywords we use in meeting invites
+//
 // Global debug setting
 // true: print info for every event
 // false: print info for only newly colorized event
